@@ -1,102 +1,68 @@
-# Iris_Flower
-ML project using Iris dataset
+# CodeAlpha Tasks – Machine Learning Projects
 
-## Iris Flower Classification (Python Script)
-
-This project implements a simple Machine Learning model to classify iris flowers into different species using a Python script.
+This repository contains three data analysis and machine learning projects implemented using Python, Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn.
 
 ---
 
-## Overview
+## **Project 1: Iris Flower Classification**
 
-The Iris dataset is a classic dataset in Machine Learning.
-This project uses features of flowers to predict their species.
+This project focuses on classifying iris flowers into different species using machine learning techniques.
 
-### Features used:
+The dataset includes four features: sepal length, sepal width, petal length, and petal width. Using these features, the model predicts the species of the flower, which can be Setosa, Versicolor, or Virginica.
 
-* Sepal Length
-* Sepal Width
-* Petal Length
-* Petal Width
+The project demonstrates data preprocessing, model training, and prediction. It is a beginner-friendly project that introduces classification concepts in machine learning.
 
----
+Key tasks performed:
 
-## Objective
-
-To build a model that can accurately classify iris flowers into:
-
-* Setosa
-* Versicolor
-* Virginica
+* Data loading and preprocessing
+* Model training
+* Prediction of flower species
 
 ---
 
-## Technologies Used
+## **Project 2: Unemployment Analysis with Python**
 
-* Python
-* NumPy
-* Pandas
-* Scikit-learn
+This project analyzes unemployment trends from 2018 to 2023, including the impact of Covid-19.
 
----
+A time-series dataset is used to study how unemployment rates changed over time. The analysis includes statistical summaries, yearly comparisons, and visualization of trends before, during, and after the pandemic.
 
-## Project Structure
+Multiple visualizations are created such as line plots, boxplots, histograms, and seasonal trend graphs to understand patterns in the data.
 
-```
-project.py        # Main Python script
-README.md         # Project documentation
-```
+Key tasks performed:
 
----
-
-## How It Works
-
-1. Load the Iris dataset
-2. Preprocess the data
-3. Train a Machine Learning model
-4. Predict the flower species
+* Data analysis and cleaning
+* Time-series visualization
+* Covid-19 impact comparison
+* Statistical insights and trend analysis
 
 ---
 
-## How to Run
+## **Project 3: Car Price Prediction**
 
-### 🔹 Step 1: Install dependencies
+This project builds machine learning models to predict car prices based on various features.
 
-```bash
-pip install numpy pandas scikit-learn
-```
+A realistic dataset is generated including attributes such as brand, fuel type, transmission, year, horsepower, mileage, engine capacity, and kilometers driven. Different regression models are trained and compared to determine the best performing model.
 
-### 🔹 Step 2: Run the script
+The project demonstrates feature engineering, data preprocessing, model training, evaluation, and prediction.
 
-```bash
-python project.py
-```
+Key tasks performed:
 
----
-
-## Output
-
-The model predicts the species of iris flower based on input features.
-
-Example:
-
-```
-Predicted Species: Setosa
-```
+* Data preprocessing and encoding
+* Model training using multiple algorithms
+* Model evaluation using MAE, RMSE, and R²
+* Feature importance analysis
+* Price prediction for new car data
 
 ---
 
-## Future Improvements
+## **Technologies Used**
 
-* Add visualization (graphs)
-* Improve model accuracy
-* Add user input system
-* Deploy as a web app
+Python is used as the programming language along with libraries such as NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn for data analysis, visualization, and machine learning.
 
 ---
 
-## 👨‍💻 Author
+## **Conclusion**
 
-**Shankha3**
+These projects demonstrate practical applications of data analysis and machine learning, including classification, time-series analysis, and regression. They provide a strong foundation for understanding real-world data science workflows.
 
 ---
